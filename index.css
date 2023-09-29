@@ -10,10 +10,11 @@ body{
     background-color: hsl(252, 24%, 4%);
     color: white;
     font-family: 'Mooli', sans-serif;
+    overflow: none;
 }
 .container{
-    height: auto;
-    width: auto;
+    height: 80vh;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -509,7 +510,7 @@ input{
     font-size: 15px;
 }
 .section2,.section3,.section4,.section5{
- margin:20px;
+ padding:20px;
  padding-left:0px ;
 }
 .exploretab,.creatorstab,.createsell,.footer{
@@ -599,7 +600,7 @@ input{
     font-size: 15px;
 }
 .container{
-    height:75vh;
+    height:80vh;
 }
 .section2,.section3,.section4,.section5{
  margin:20px;
